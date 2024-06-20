@@ -34,16 +34,13 @@ function Courses() {
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   };
 
   return (
     <div className='bg-[#E9F8F3B2] w-full py-24'>
       <div className='md:max-w-[1170px] m-auto max-w-[400px]'>
-      <h1 className='py-3 text-3xl font-bold'>Most Popular <span className='text-[#20B486]'>Courses</span></h1>
+      <h1 className='py-3 text-3xl font-bold'>Most Popular <span className='text-[#45bdc5]'>Courses</span></h1>
       <p className='text-[#6D737A] mb-2'>Various versions have evolved over the years, sometimes by accident.</p>
         <Slider {...settings}>
           {courses.map(course=><Card course={course} />) }

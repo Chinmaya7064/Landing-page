@@ -1,5 +1,5 @@
 import React from 'react';
-import blogImg1 from '../assets/blogImg1.png'
+// import blogImg1 from '../assets/blogImg1.png'
 import StartRating from './StartRating';
 
 function Card({course}) {

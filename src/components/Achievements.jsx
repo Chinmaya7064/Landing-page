@@ -1,5 +1,5 @@
 import React from 'react'
-import achievement from '../assets/achievement.png'
+import achievement from '../assets/achievement1.png'
 import { SlGraduation, SlPeople } from 'react-icons/sl'
 import { FiVideo } from 'react-icons/fi'
 
@@ -8,7 +8,7 @@ function Achievements() {
     <div className='w-full bg-white py-20'>
         <div className='md:max-w-[1170px] m-auto grid md:grid-cols-2 max-w-[400px] '>
             <div className='flex flex-col justify-center'>
-                <h1 className='md:leading-[55px] text-3xl font-bold'>Our <span className='text-[#20B486]'>Achievements</span> </h1>
+                <h1 className='md:leading-[55px] text-3xl font-bold'>Our <span className='text-[#45bdc5]'>Achievements</span> </h1>
                 <p className='text-lg text-gray-600'>Various versions have evolved over the years, sometimes by accident.</p>
                 <div className='grid grid-cols-2 py-16'>
                     <div className='py-6 flex'>
@@ -54,7 +54,7 @@ function Achievements() {
 
                 </div>
             </div>
-            <img className='m-auto md:order-last order-first' src={achievement} />
+            <img className='m-auto mb-10 md:order-last order-first h-[350px] rounded-lg'  src={achievement} />
         </div>
     </div>
   )
