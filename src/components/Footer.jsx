@@ -14,10 +14,9 @@ function Footer() {
                 <h3 className='py-2 text-[#6D737A]'>Email : practice@gmail.com</h3>
                 <div className='flex gap-4 py-4'>
                     <div className='p-4 bg-[#e9f4f8] rounded-xl'><FaFacebookF size={25} style={{color: '#45bdc5'}} /></div>
-                    {/* <div className='p-4 bg-[#e9f4f8] rounded-xl'><FaDribbble size={25} style={{color: '#45bdc5'}} /></div> */}
                     <div className='p-4 bg-[#e9f4f8] rounded-xl'><FaLinkedinIn size={25} style={{color: '#45bdc5'}} /></div>
                     <div className='p-4 bg-[#e9f4f8] rounded-xl'><FaInstagram size={25} style={{color: '#45bdc5'}} /></div>
-                    <div className='p-4 bg-[#e9f4f8] rounded-xl'><FaBehance size={25} style={{color: '#45bdc5'}} /></div>
+                   
                 </div>
             </div>
 
